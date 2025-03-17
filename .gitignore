@@ -153,10 +153,17 @@ cython_debug/
 *.fastq
 *.fq
 
+# Ignore raw sequencing data
+data/raw/
+
 # Quality control and preprocessing results
 QC_results/
 NanoPlot_results/
 filtered_data/
+qc/fastqc/
+qc/nanoplot/
+data/filtered/
+results/
 
 # QIIME2 artifacts and visualization files
 *.qza
